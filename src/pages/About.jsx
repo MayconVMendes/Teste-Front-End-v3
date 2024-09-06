@@ -40,7 +40,7 @@ function About() {
               para a API, facilitando a comunicação com o backend.
             </li>
             <li>
-              <strong>Toastr</strong>: Implementado para exibir notificações
+              <strong>Toastify</strong>: Implementado para exibir notificações
               amigáveis ao usuário sobre ações realizadas na aplicação.
             </li>
             <li>

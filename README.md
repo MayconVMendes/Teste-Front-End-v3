@@ -95,6 +95,18 @@ Para rodar o projeto localmente, siga estes passos:
 
   - Tempo gasto: 2 horas
 
+- **Deploy Vercel**: Realizando deploy na Vercel
+
+  - Tempo gasto: 1 hora
+
+- **Estudando bug deploy Vercel/React Router Dom**: Acontecia um bug de quando atualizava a página ou entrava pelo link direto, dava 404.
+
+  - Tempo gasto: 3 horas
+
+- **Gravando video para YouTube e Postando**: Tive de baixar um software, configuração do software, gravação de um video onde fosse menor do que 15 minutos e tivesse informações relevantes para o projeto
+
+  - Tempo gasto: 2 horas
+
   ## Funcionalidades Futuras (TODO / TASKS)
 
 - **Implementar Pesquisa Avançada**: Adicionar filtros adicionais à barra de pesquisa para permitir uma busca mais refinada e eficiente.
