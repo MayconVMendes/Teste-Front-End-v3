@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
+$primary-color: #007bff;
+$secondary-color: #f9f9f9;
+$hover-color: #f1f1f1;
+$font-color: #333;
+$border-color: #ddd;
+$shadow-color: rgba(0, 0, 0, 0.1);
+
+/* BTNs Vars */
+$active-button-color: #218838;
+$hover-button-color: #0056b3;
+$disabled-button-color: #ccc;
+$button-background-color: #81ff9e;
+$button-background-color-hover: #1fff53;
+$button-edit-bgc: rgb(255, 210, 128);
+$button-edit-bgc-hover: rgb(255, 166, 0);
+$button-delete-bgc: rgb(250, 129, 129);
+$button-delete-bgc-hover: rgb(255, 0, 0);
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: var(--font-family);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+main,
+#root,
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  height: auto;
+}
+
+.Toastify__close-button {
+  width: auto;
+}

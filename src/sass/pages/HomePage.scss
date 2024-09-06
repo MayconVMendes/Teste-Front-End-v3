@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  flex-direction: column;
+  gap: 25px;
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}

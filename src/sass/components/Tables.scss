@@ -1,0 +1,82 @@
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: $secondary-color;
+    box-shadow: 0 2px 10px $shadow-color;
+    color: $font-color;
+
+    thead th {
+      background-color: $primary-color;
+      color: white;
+      padding: 12px 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      height: 56px;
+    }
+
+    .actions {
+      width: 192px;
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid $border-color;
+        &:nth-child(even) {
+          background-color: lighten($secondary-color, 5%);
+        }
+
+        &:hover {
+          background-color: $hover-color;
+          transition: background-color 0.3s ease;
+        }
+
+        td {
+          padding: 22px 15px;
+          text-align: center;
+
+          a {
+            color: $primary-color;
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          button {
+            padding: 8px 12px;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &.edit {
+              background-color: $button-edit-bgc;
+              border-radius: 10px 0 0 10px;
+
+              &:hover {
+                background-color: $button-edit-bgc-hover;
+              }
+            }
+
+            &.delete {
+              background-color: $button-delete-bgc;
+              border-radius: 0 10px 10px 0;
+
+              &:hover {
+                background-color: $button-delete-bgc-hover;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
